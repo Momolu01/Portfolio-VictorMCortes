@@ -1,0 +1,58 @@
+/* Generals */
+.row{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    min-height: 100vh;
+    position: relative;
+    align-content: center;
+    padding: 45px 0;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.column{
+    padding: 0px 10px;
+}
+.title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+
+.is-visible{
+    position: relative;
+    opacity: 1;
+    visibility: visible;
+}
+.is-hidden{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    top: 0px;
+}
+
+/* Flexbox */
+
+
+/* Padding/Margin */
+
+.mg-lr-90p{
+    width: 90%;
+    margin: 0px auto;
+}
+.mg-b-8px{
+    margin-bottom: 8px;
+}
+.mg-b-15px{
+    margin-bottom: 15px;
+}
+.mg-b-20px{
+    margin-bottom: 20px;
+}
+.mg-b-30px{
+    margin-bottom: 30px;
+}
+.mg-b-70px{
+    margin-bottom: 70px;
+}

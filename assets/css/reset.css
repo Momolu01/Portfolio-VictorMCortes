@@ -1,0 +1,27 @@
+:root{
+    --bg-main-color--: #343a40;
+    --nav-width--: 200px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+    box-sizing: border-box;
+
+    text-decoration: none;
+    text-decoration-style: initial !important;
+    color:white;
+
+    list-style: none !important;
+
+    outline: none !important;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: var(--bg-main-color--);
+
+}
