@@ -56,13 +56,17 @@ img{
     height: 100%;
     overflow: hidden scroll;
     
+    background-color: var(--bg-main-color--);
+}
+
+/* Home */  
+.home {
+    max-width: 100%;
     background-image: url(http://reejo.me/lank/assets/images/slide1.jpg);
     background-position: 0px 0px;
     background-size: cover;
-    opacity: 80%;
+    opacity: 80%; 
 }
-
-    /* Home */  
 .banner-content {
     width: 100%;
     position: absolute;
