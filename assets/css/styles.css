@@ -108,10 +108,6 @@ img{
     background-color: var(--bg-main-color--);
 }
 
-.about-title{
-    padding-bottom: 7px;
-    border-bottom: 1px dashed rgba(200, 200, 200, 0.5);
-}
 
 .about-content .column ul li{
     
