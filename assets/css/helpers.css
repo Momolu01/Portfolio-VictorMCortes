@@ -33,13 +33,13 @@
 }
 .border-title{
     padding-bottom: 7px;
-    border-bottom: 1px dashed rgba(200, 200, 200, 0.5);
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
 }
 
 /* Flexbox */
 
 
-/* Padding/Margin */
+/* Margin */
 
 .mg-lr-90p{
     width: 90%;
@@ -59,4 +59,22 @@
 }
 .mg-b-70px{
     margin-bottom: 70px;
+}
+.mg-t-40px{
+    margin-top: 40px;
+    
+}
+
+/* Padding */
+.pd-t-8px{
+    padding-top: 8px;
+}
+.pd-t-15px{
+    padding-top: 15px;
+}
+.pd-t-20px{
+    padding-top: 20px;
+}
+.pd-t-30px{
+    padding-top: 30px;
 }
