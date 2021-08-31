@@ -1,0 +1,36 @@
+:root{
+    --main-color: #343a40;
+    --second-color: rgb(228, 92, 67);
+    --nav-width--: 200px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+    box-sizing: border-box;
+
+    text-decoration: none;
+    text-decoration-style: initial !important;
+    color:white;
+
+    list-style: none !important;
+
+    outline: none !important;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: var(--main-color);
+}
+
+
+
+h3{
+    font-size: 1.375rem;
+    font-weight: 400;
+    border-bottom: 1px solid var(--second-color);
+    display: inline-block;
+}
