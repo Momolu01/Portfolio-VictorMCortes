@@ -1,0 +1,80 @@
+/* Generals */
+.row{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    min-height: 100vh;
+    position: relative;
+    align-content: center;
+    padding: 45px 0;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.column{
+    padding: 0px 10px;
+}
+.title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+
+.is-visible{
+    position: relative;
+    opacity: 1;
+    visibility: visible;
+}
+.is-hidden{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    top: 0px;
+}
+.border-title{
+    padding-bottom: 7px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+/* Flexbox */
+
+
+/* Margin */
+
+.mg-lr-90p{
+    width: 90%;
+    margin: 0px auto;
+}
+.mg-b-8px{
+    margin-bottom: 8px;
+}
+.mg-b-15px{
+    margin-bottom: 15px;
+}
+.mg-b-20px{
+    margin-bottom: 20px;
+}
+.mg-b-30px{
+    margin-bottom: 30px;
+}
+.mg-b-70px{
+    margin-bottom: 70px;
+}
+.mg-t-40px{
+    margin-top: 40px;
+    
+}
+
+/* Padding */
+.pd-t-8px{
+    padding-top: 8px;
+}
+.pd-t-15px{
+    padding-top: 15px;
+}
+.pd-t-20px{
+    padding-top: 20px;
+}
+.pd-t-30px{
+    padding-top: 30px;
+}
