@@ -37,6 +37,10 @@
     display: flex;
     flex-direction: row;
 }
+.colum{
+    display: flex;
+    flex-direction: column;
+}
 
 /* Margin */
 
