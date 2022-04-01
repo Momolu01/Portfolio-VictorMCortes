@@ -1,12 +1,15 @@
-// Variables
-const sections = document.getElementsByClassName("sections");
-const content = document.getElementsByClassName("content");
-const nav = document.getElementById("nav");
-// const offSetWeigh-content = 
+brandName = document.getElementsByClassName('img-container')[0];
+perfil_img = document.getElementsByClassName('perfil-img')[0];
+console.log(brandName);
 
-
-// Function
-
-console.log(window.innerWidth);
-console.log(content);
-console.log(nav);
+brandName.children[0].addEventListener('mouseenter', () => {
+  perfil_img.classList.remove('hidden');
+  perfil_img.classList.add('visible');
+  console.log(perfil_img.classList);
+  console.log('mouse enter');
+});
+brandName.children[0].addEventListener('mouseleave', () => {
+  perfil_img.classList.add('hidden');
+  perfil_img.classList.remove('visible');
+  console.log('mouse leave');
+});
