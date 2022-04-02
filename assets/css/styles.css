@@ -28,14 +28,12 @@ nav .perfil-img {
   position: absolute;
   top: 60px;
   width: 234.516px;
+}
+nav .perfil-img > img {
   border: 10px solid #222831;
+  border-top: none;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-}
-nav .perfil-img img {
-  /* border-bottom-left-radius: inherit;
-  border-bottom-right-radius: inherit; */
-  background-color: #222831;
 }
 nav .nav-menu {
   flex-grow: 2;
