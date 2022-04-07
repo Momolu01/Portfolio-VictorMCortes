@@ -9,3 +9,7 @@
 .hover:hover {
   border-bottom: solid 4px #d65a31;
 }
+
+.flex {
+  display: flex;
+}

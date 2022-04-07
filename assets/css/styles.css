@@ -17,31 +17,18 @@ nav {
   top: 0px;
   display: flex;
 }
-nav .img-container {
-  position: relative;
-}
-nav .img-container .brand {
+nav .nav-menu h2 {
   padding: 15.5px 10px;
   flex-grow: 1;
 }
-nav .perfil-img {
-  position: absolute;
-  top: 60px;
-  width: 234.516px;
-}
-nav .perfil-img > img {
-  border: 10px solid #222831;
-  border-top: none;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
 nav .nav-menu {
-  flex-grow: 2;
+  width: 100%;
 }
 nav .nav-menu ul {
+  flex-grow: 2;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 nav .nav-menu ul li {
-  padding: 18.5px 0;
+  padding: 18.5px 10px;
 }
