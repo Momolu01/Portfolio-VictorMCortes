@@ -1,7 +1,7 @@
 // Elements
 brandName = document.getElementsByClassName('img-container')[0];
 perfil_img = document.getElementsByClassName('perfil-img')[0];
-navbar = document.getElementsByTagName('nav');
+navbar = document.getElementById('nav');
 
 // Events
 // hover -> logo
@@ -16,7 +16,14 @@ navbar = document.getElementsByTagName('nav');
 
 document.addEventListener('click', () => {
   const scrollY = window.scrollY;
-  console.log(window);
-  console.log(navbar);
+  // console.log(navbar);
 });
-document.addEventListener('scroll', () => {});
+document.addEventListener('scroll', () => {
+  // if (window.scrollY > 0) {
+  //   console.log(navbar.style.position);
+  //   navbar.style.position = 'sticky';
+  // } else {
+  //   navbar.style.position = 'absolute';
+  // }
+  // console.log(window.scrollY);
+});

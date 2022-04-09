@@ -15,3 +15,10 @@
 .justify-center {
   justify-content: center;
 }
+
+.title-section {
+  margin-bottom: 20px;
+
+  color: #d65a31;
+  font-size: 48px;
+}
