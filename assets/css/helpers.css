@@ -22,3 +22,9 @@
   color: #d65a31;
   font-size: 48px;
 }
+.width-middle {
+  width: calc(50% - 0.25em);
+}
+.sub-tittle {
+  margin-bottom: 0.125 em;
+}
