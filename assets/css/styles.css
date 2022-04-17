@@ -56,14 +56,14 @@ header {
   text-align: center;
 }
 header h1 {
-  color: #e5e5e5;
+  color: var(--main-color);
 
   padding-top: 60px;
 
   font-size: 72px;
 }
 header p {
-  color: #e5e5e5;
+  color: var(--main-color);
 
   padding-bottom: 60px;
 
@@ -147,7 +147,7 @@ footer textarea {
 
   padding: 3px;
 
-  color: #eeeeee;
+  color: var(--main-color);
 
   background-color: #222831;
   border: none;
@@ -161,6 +161,8 @@ footer textarea {
 
   font-family: 'Roboto', sans-serif;
   font-size: 1.125em;
+}
+footer #send {
 }
 footer .personal-info li {
   margin-bottom: 1em;
