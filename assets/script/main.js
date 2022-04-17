@@ -1,22 +1,26 @@
+// import { links } from './../data/link';
 // Elements
-brandName = document.getElementsByClassName('img-container')[0];
+filters = document.getElementsByClassName('hoverfilters');
 perfil_img = document.getElementsByClassName('perfil-img')[0];
 navbar = document.getElementById('nav');
 
 // Events
-// hover -> logo
-// brandName.children[0].addEventListener('mouseenter', () => {
-//   perfil_img.classList.remove('hidden');
-//   perfil_img.classList.add('visible');
-// });
+// hover
+const hover = (element, action) => {
+  /* param: element::elemento al que se la aplicara una acción, action::acción que se ejecutara*/
+  element.addEventListener('mouseouver', action);
+};
+filters[0].addEventListener('mouserover', (element) => {
+  element.target.style.transform = 'translate3d(105%, 0, 0)';
+  console.log('hola');
+});
 // brandName.children[0].addEventListener('mouseleave', () => {
 //   perfil_img.classList.add('hidden');
 //   perfil_img.classList.remove('visible');
 // });
 
 document.addEventListener('click', () => {
-  const scrollY = window.scrollY;
-  // console.log(navbar);
+  console.log(filters);
 });
 document.addEventListener('scroll', () => {
   // if (window.scrollY > 0) {

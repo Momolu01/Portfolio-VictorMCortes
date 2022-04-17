@@ -1,9 +1,9 @@
 .visible {
-  visibility: visible;
+  display: inline;
 }
 
 .hidden {
-  visibility: hidden;
+  display: none;
 }
 
 .flex {
@@ -27,4 +27,7 @@
 }
 .sub-tittle {
   margin-bottom: 0.125 em;
+}
+.hover:hover {
+  background-color: var(--second-color);
 }

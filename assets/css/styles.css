@@ -7,14 +7,11 @@ body {
 }
 /* Navigation Bar */
 nav {
+  z-index: 100;
   width: 100%;
   height: 60px;
   padding: 0 30px;
-
-  z-index: 100;
-
   background-color: #222831;
-
   position: fixed;
   top: 0px;
   display: flex;
@@ -34,39 +31,28 @@ nav .nav-menu ul {
 nav .nav-menu ul li {
   padding: 18.5px 10px;
 }
-nav .nav-menu ul li:hover {
-  background-color: #d65a3168;
-}
+
 /* Home */
 header {
   width: 100%;
   height: 100vh;
-
   position: relative;
-  z-index: 99;
-
   background-image: url('http://reejo.me/lank/assets/images/slide1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   text-align: center;
 }
 header h1 {
   color: var(--main-color);
-
   padding-top: 60px;
-
   font-size: 72px;
 }
 header p {
   color: var(--main-color);
-
   padding-bottom: 60px;
-
   font-size: 48px;
 }
 header b {
@@ -83,7 +69,6 @@ main {
 section {
   max-width: 1440px;
   width: 100%;
-
   margin: auto;
   padding: 90px 5.5%;
 }
@@ -92,36 +77,58 @@ section {
 }
 #about-me .img-field {
   width: 30%;
-
   padding: 10px;
   margin-right: 5%;
 }
 #about-me .text-field {
   width: 60%;
-
   margin-left: 5%;
   flex-grow: 2;
 }
 #about-me .text-field p {
   font-size: 30px;
 }
-#skill-work {
+#skill-work ul {
+  flex-wrap: wrap;
+}
+#skill-work .filters li {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 0.25em;
+  position: relative;
+  color: var(--main-color);
+  background-color: var(--thirth-color);
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+.filters li:before {
+  content: ' ';
+  top: 0;
+  left: 0;
+  height: 50%;
+  display: block;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  transition: transform 0.3s cubic-bezier(0.65, 0.05, 0.1, 1);
+  background-color: #515151;
+  transform: translate3d(-105%, 0, 0);
+}
+.filters li:before:hover {
+  transform: translate3d(105%, 0, 0);
 }
 footer {
   max-width: 1440px;
   width: 100%;
-
   margin: auto;
   padding: 0 5%;
   padding-top: 70px;
   padding-bottom: 50px;
-
   background-color: #393e46;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
   text-align: center;
 }
 footer > div {
@@ -144,25 +151,17 @@ footer li {
 footer input,
 footer textarea {
   width: 100%;
-
   padding: 3px;
-
   color: var(--main-color);
-
   background-color: #222831;
   border: none;
-
   font-size: 1.125em;
 }
 footer textarea {
   resize: none;
-
   height: 5.5em;
-
   font-family: 'Roboto', sans-serif;
   font-size: 1.125em;
-}
-footer #send {
 }
 footer .personal-info li {
   margin-bottom: 1em;
