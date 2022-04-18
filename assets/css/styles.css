@@ -70,7 +70,7 @@ section {
   max-width: 1440px;
   width: 100%;
   margin: auto;
-  padding: 90px 5.5%;
+  padding: 4em 5em;
 }
 #about-me {
   background-color: rgba(255, 255, 255, 0.025);
@@ -78,51 +78,94 @@ section {
 #about-me .img-field {
   width: 30%;
   padding: 10px;
-  margin-right: 5%;
+  margin-right: 1.25em;
 }
 #about-me .text-field {
   width: 60%;
-  margin-left: 5%;
+  margin-left: 1.25em;
   flex-grow: 2;
 }
 #about-me .text-field p {
-  font-size: 30px;
+  font-size: 1.8em;
+}
+#skill-work .text-field p {
+  font-size: 1.5em;
+}
+#skill-work {
+  display: block;
+  height: 100vh;
+}
+/*#skill-work ul {
+  margin: 1.5625em 0;
 }
 #skill-work ul {
   flex-wrap: wrap;
-}
-#skill-work .filters li {
+} 
+  #skill-work .filters li {
   display: inline-block;
-  padding: 10px 15px;
+  padding: 0.5em 1em;
   margin: 0.25em;
   position: relative;
   color: var(--main-color);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1em;
+  letter-spacing: 0.075em;
   background-color: var(--thirth-color);
   border: none;
   cursor: pointer;
   overflow: hidden;
 }
-.filters li:before {
+#skill-work .filters span {
+  z-index: 2;
+  position: relative;
+}
+#skill-work .filters li:before {
   content: ' ';
   top: 0;
   left: 0;
-  height: 50%;
+  height: 100%;
   display: block;
   width: 100%;
   position: absolute;
   z-index: 1;
   transition: transform 0.3s cubic-bezier(0.65, 0.05, 0.1, 1);
-  background-color: #515151;
+  background-color: var(--second-color);
   transform: translate3d(-105%, 0, 0);
 }
-.filters li:before:hover {
-  transform: translate3d(105%, 0, 0);
+#skill-work .filters li:hover:before,
+#skill-work .filters li.active:before {
+  transform: translate3d(0, 0, 0);
+} */
+#skill-work > .text-field .title-section {
+  margin-bottom: 0.13em;
+}
+#skill-work > .text-field {
+  margin-bottom: 2em;
+}
+#skill-work .views li {
+  justify-content: space-around;
+  margin: 0.5em 0;
+}
+#skill-work .views .img-field {
+  width: calc(50% - 2.5em);
+  margin-right: 1.25em;
+  box-shadow: 0.75em 0.75em 0 var(--thirth-color);
+}
+#skill-work .views .img-field img {
+  height: 100%;
+}
+#skill-work .views .text-field {
+  width: calc(50% - 2.5em);
+}
+#skill-work .views .text-field p {
+  font-size: 1em;
 }
 footer {
   max-width: 1440px;
   width: 100%;
   margin: auto;
-  padding: 0 5%;
+  padding: 0 5em;
   padding-top: 70px;
   padding-bottom: 50px;
   background-color: #393e46;
@@ -136,6 +179,7 @@ footer > div {
   width: 47.5%;
 }
 footer h3 {
+  color: var(--second-color);
   margin-bottom: 1em;
 }
 footer ul {

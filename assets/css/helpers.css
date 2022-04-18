@@ -17,10 +17,10 @@
 }
 
 .title-section {
-  margin-bottom: 20px;
+  margin-bottom: 0.37em;
 
   color: #d65a31;
-  font-size: 48px;
+  font-size: 3em;
 }
 .width-middle {
   width: calc(50% - 0.25em);
