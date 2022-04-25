@@ -12,18 +12,32 @@
   margin-bottom: 2%;
 
   color: var(--second-color);
-  font-size: 3em;
+  font-size: 3rem;
 }
 .width-middle {
   width: calc(50% - 0.25em);
 }
 .sub-title {
-  margin-bottom: 0.125em;
+  font-weight: 600;
+  margin-bottom: 0.175rem;
+  line-height: 2rem;
 }
 .img-field img {
   height: 100%;
 }
-.active,
-.hover:hover {
-  background-color: var(--second-color);
+.active-burger {
+  display: flex !important;
+}
+.inactive-burger {
+  display: none !important;
+}
+@media screen and (min-width: 769px) {
+  .active {
+    background-color: var(--second-color);
+  }
+}
+@media screen and (max-width: 769px) {
+  .title-section {
+    font-size: 2rem;
+  }
 }
